@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#B82A0A</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="button_all">#000000</color>
+    <color name="secondary">#EA0000</color>
+    <color name="secondary_dark">#BC0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_backrount">#FDFDFA</color>
+    <color name="status_menu_background">#FFFFFF</color>
+
+<!--button home screen-->
+    <color name="fast_b1">#9C27B0</color>
+    <color name="fast_b2">#9C27B0</color>
+    <color name="fast_b3">#EC0000</color>
+    <color name="fast_b4">#FF7700</color>
+
+    <!--StatusBar-->
+    <color name="button_card_hed">#000000</color>
+    <color name="ST">#7D35FC</color>
+    <color name="spleash_backrount">#7D35FC</color>
+    <color name="last_button_ds1">#0000ff</color>
+    <color name="last_button_ds2">#eeeeee</color>
+    <color name="All_back">#F2F4FD</color>
+
+
+    <!--Exta-->
+    <color name="color_1">#FFFF3D00</color>
+    <color name="color_2">#FFFF3D00</color>
+    <color name="color_3">#FFFF3D00</color>
+    <color name="color_4">#FFFF3D00</color>
+    <color name="color_5">#FFFF3D00</color>
+    <color name="color_6">#FFFF3D00</color>
+</resources>

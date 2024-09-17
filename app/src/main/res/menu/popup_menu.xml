@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/text"
+        android:title="শুধু লেখা" />
+    <item
+        android:id="@+id/image"
+        android:title="ছবি সহ লেখা" />
+</menu>

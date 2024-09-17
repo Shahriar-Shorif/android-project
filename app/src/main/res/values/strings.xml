@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">মজার স্ট্যাটাস</string>
+
+
+    <!--Test Ad-->
+        <string name="Interstitial_Ads">ca-app-pub-3940256099942544/1033173712</string>
+        <string name="OPEN_ADS_ID">ca-app-pub-3940256099942544/9257395921</string>
+        <string name="App_ID">ca-app-pub-3940256099942544~3347511713</string>
+        <!--<string name="Intertitial_Ads">ca-app-pub-3940256099942544~3347511713</string>-->
+
+
+
+
+    <!--App Info-->
+    <string name="save">Save</string>
+    <string name="like">Like</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="Facebook_Link">https://www.facebook.com/love.funny</string>
+    <string name="ENTAR_YOUR_EMAIL_HARE">alvinvaisr12@gmail.com</string>
+    <string name="Share_app_massege">এই অ্যাপসটি ডাউনলোড করতে নিচের লিংকে ক্লিক করুন:</string>
+    <string name="let_s_start">প্রবেশ করুন</string>
+    <string name="favorite">পছন্দের SMS</string>
+    <string name="rate_us">৫স্টার দিন</string>
+    <string name="more_app">অন্যান্য অ্যাপস</string>
+
+    <string name="DeveloperID">8076773785335437828</string>
+
+
+    <!--developer info-->
+    <string name="dev">Developed BY:</string>
+    <string name="sabing">Rakib</string>
+    <string name="power">Powered:</string>
+    <string name="commpeny">gfnbfgn</string>
+    <string name="app">App Name:</string>
+    <string name="info_help">Contact info</string>
+    <string name="contact_info">My Email: alvinvaisr12@gmail.com</string>
+    <string name="nebadon">নিবেদন</string>
+    <string name="nebadon1">আমাদের অ্যাপসটি ব্যবহার করে আপনার কেমন লাগলো</string>
+    <string name="paramaso">পরামর্শ</string>
+    <string name="paramaso1">যদি এই অ্যাপসটি সম্পর্কে কোন মতামত এবং পরামর্শ থাকে অথবা নতুন অ্যাপস প্রয়োজন হয় তাহলে আমাদের সাথে যোগাযোগ </string>
+    <string name="all">Thank You All</string>
+    <string name="home_text">Powered BY: love</string>
+    <string name="DEVICE_ID">e1f0dffa-f492-4a79-8d0b-87270f56a95rk</string>
+
+
+
+    <!--   &lt;!&ndash;OtherApp&ndash;&gt;
+    <string name="app_1">কষ্টের এসএমএস ও স্ট্যাটাস</string> <string name="package_1">com.sabingstory.kosterstatus</string>
+    <string name="app_2">প্রতিদিনের দরকারি দোয়া</string> <string name="package_2">com.sabingstory.dorkarisobdoya</string>
+    <string name="app_3">ইসলামিক স্ট্যাটাস</string> <string name="package_3">com.sabingstory.islamicstatus</string>
+    <string name="app_4">রোমান্টিক এসএমএস</string> <string name="package_4">com.sabingstory.romanticpremsms</string>-->
+
+
+</resources>

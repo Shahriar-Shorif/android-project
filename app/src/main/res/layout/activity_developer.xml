@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperActivity"
+    android:background="#00BCD4"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="#03A9F4"
+            android:text="@string/app_name"
+            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/bangla_english"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app"
+            android:textColor="#000000"
+            android:textSize="@dimen/_18sdp"
+            android:fontFamily="@font/azad"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#DB08FF"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/bangla_english"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info_help"
+            android:textColor="#000000"
+            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/azad"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_info"
+            android:textColor="#F44336"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/azad"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nebadon"
+            android:textColor="#0027FF"
+            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/azad"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nebadon1"
+            android:textColor="#000000"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="@font/azad"
+            android:layout_margin="@dimen/_2sdp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paramaso"
+            android:textColor="#FF0101"
+            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/azad"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/paramaso1"
+            android:textColor="#000000"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_2sdp"
+            android:fontFamily="@font/azad"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/all"
+            android:textColor="#9C27B0"
+            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/azad"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

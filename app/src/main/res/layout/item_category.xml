@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_2sdp"
+    android:id="@+id/category_card"
+    android:layout_margin="@dimen/_5sdp"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="@dimen/_10sdp"
+    app:cardBackgroundColor="@color/All_back"
+    android:foreground="?attr/selectableItemBackgroundBorderless">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_guide"
+                >
+
+                <ImageView
+                    android:id="@+id/category_logo"
+                    android:layout_width="@dimen/_75sdp"
+                    android:layout_height="@dimen/_75sdp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:src="@drawable/app_icon"
+                    />
+
+
+
+                <TextView
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="#2196F3"
+                    android:layout_below="@id/category_logo"
+                    android:id="@+id/category_title"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="@dimen/_40sdp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/azad"
+                    android:textSize="20sp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    />
+
+
+        </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

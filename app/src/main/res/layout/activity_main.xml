@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/All_back">
+
+    <RelativeLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:backgroundTint="@color/primary"
+        android:background="@color/primary"
+        android:layout_alignParentTop="true"
+        >
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/openMenu"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/bangla_english"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_16sdp"/>
+
+
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/fav"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_toLeftOf="@id/openMenu"
+            android:layout_gravity="end"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/ic_like"
+            android:clickable="true"
+            android:focusable="true"
+            app:tint="@color/text_color"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            />
+
+
+
+        <ImageView
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/openMenu"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_gravity="end"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:src="@drawable/menu"
+            android:clickable="true"
+            android:focusable="true"
+            app:tint="@color/text_color"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            />
+
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_bar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                >
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/image_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:iss_auto_cycle="true"
+                    app:iss_period="1000"
+                    app:iss_delay="1000"
+                    app:iss_text_align="CENTER"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/banner_container"
+                />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

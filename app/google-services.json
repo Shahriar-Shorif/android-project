@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "246730394224",
+    "project_id": "mojar-status",
+    "storage_bucket": "mojar-status.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246730394224:android:767a52c0b15ab4563082b5",
+        "android_client_info": {
+          "package_name": "com.valobasa.moja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8F17gc587qA1EB61owPcPKJ8ZncARDxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
